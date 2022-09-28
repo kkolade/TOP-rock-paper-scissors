@@ -1,4 +1,6 @@
 // A function to get computer choice
+// const options = document.querySelectorAll(".options > a");
+
 const getComputerChoice = () => {
   let choice = ["rock", "paper", "scissors"];
   function rand() {
@@ -49,3 +51,7 @@ const playRound = (playerSelection, computerSelection) => {
 // };
 
 // game();
+// optionsArr = Array.from(options);
+// optionsArr.forEach((option) => {
+//   console.log(option.innerHTML);
+// });
